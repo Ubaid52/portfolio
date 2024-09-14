@@ -1,0 +1,132 @@
+:root{
+    --font-family:"Nunito", sans-serif;
+    --color: rgba(99,189,252,1);
+    --background:linear-gradient(90deg, rgba(132,147,254,1) 14%, rgba(99,189,252,1) 82%);
+
+}
+body{
+    text-transform: capitalize;   
+    
+    font-family: var(--font-family);
+}
+button{
+    font-family: var(--font-family) !important;
+text-transform: capitalize !important;
+    border: none !important;
+    background: var(--background) !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    font-weight: 700 ;
+    border-radius: 5px !important;
+    border: 1px solid var(--color) !important;
+transition: 0.4s ease-in-out !important;
+}
+button:hover{
+    transform: scale(1.1);
+    font-weight: bolder;
+    color: var(--color) !important;
+    background: transparent !important;
+border: 1px solid var(--color) !important;
+}
+i,svg{
+    background-color: var(--background) !important;
+}
+/* button */
+marquee>span{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.mar{
+    padding: 35px 70px;
+    color:white;
+    font-family: "Play", sans-serif;
+    background-color:  rgba(132,147,254,1)!important;
+}
+.mar>marquee>span>i{
+    transition: 0.4s ease-in-out !important;
+    background-color: white !important;
+color: var(--color);
+padding:10px 10px;
+/* font-size: 24px; */
+border-radius: 50px;
+}
+h4 {
+    color: rgb(47, 47, 47) !important;
+}
+/* .navCont{
+
+background-color: transparent !important;
+} */
+
+.navScroll {
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease, padding 0.5s ease !important;
+    background-color: white !important;
+    top: 0px;
+    position: fixed !important;
+    width: 100% !important;
+    padding: 10px;
+}
+
+.nav {
+    transition: color 0.5s ease;
+}
+
+.navScroll a {
+    color: black !important; /* Dark text color when scrolled */
+}
+
+.nav a {
+    transition: color 0.5s ease;
+}
+
+.navScroll a:hover {
+    color: #ff5722 !important; /* Add hover effect for scroll state */
+}
+
+.unde {
+    color: red !important;
+    transition: color 0.5s ease;
+}
+.iconfea{
+    padding: 20px;
+    height: 40%;
+    /* width: 50%; */
+    border-radius: 50px;
+    background-color: rgb(240, 240, 240);
+}
+.port{
+    padding: 25px 0px;
+    background: var(--background);
+}
+.port>div>div>div{
+    border-radius: 10px;
+    padding:15px 10px;
+    margin: 0px 1px;
+    background-color: white;
+    /* border-right: 2px solid red; */
+}
+.port>div>div>div>h2{
+    font-family: play;
+}
+.port>div>div>div>p{
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    font-family: var(--font-family) !important;
+    font-weight: bolder;
+    background: var(--background);
+    border-radius: 5px;
+}
+.bo>div{
+    padding: 15px 0px;
+    border-radius: 15px;
+    border: 10px solid rgb(255, 255, 255) !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px inset, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px  inset;
+    /* border: 1px solid red; */
+}
+.bo>div>p{
+    padding: 0px 16px;
+    color: rgb(143, 143, 143);
+}
